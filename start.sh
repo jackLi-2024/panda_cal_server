@@ -29,3 +29,5 @@ else
 fi
 
 echo "upload server is ready."
+
+nohup python -m SimpleHTTPServer 9002 &
